@@ -14,36 +14,7 @@ The goal of this project is to automate critical functionalities of the Pizza Hu
     Data Handling Apache POI (Excel), Properties File
     Reporting Extent Reports4. 
     
-4. Project Structure
-Plaintext
-phase2-selenium-automation-with-testng-project2
-                ├── src/main/java
-                │   ├── base
-                │   │   └── BaseTest.java               # Driver initialization & teardown
-                │   ├── pages
-                │   │   ├── HomePage.java               # Location & Pop-up handling
-                │   │   ├── OrderDealPage.java          # Deals validation
-                │   │   ├── SidesMenuPage.java          # Adding sides to basket
-                │   │   ├── DrinkMenuPage.java          # Adding drinks to basket
-                │   │   ├── BasketMenuPage.java         # Cart validation
-                │   │   └── CheckOutPage.java           # Checkout & Voucher logic
-                │   └── utilities
-                │       ├── ExtentReportUtil.java       # Report generation
-                │       ├── ExcelUtility.java           # Data reading logic
-                │       ├── ScreenshotUtil.java         # Capturing failure shots
-                │       ├── TestConfigurationReader.java # Reading config.properties
-                │       └── WebDriverFactory.java       # Browser management
-                ├── src/test/java
-                │   └── testcases
-                │       └── E2E_OrderItem_PizzaHut_DemoTest.java
-                ├── src/test/resources
-                │   ├── config.properties               # URL and global settings
-                │   └── TestData.xlsx                   # External test data
-                ├── Reports
-                │   └── Report_2026.01.31.html          # Execution reports
-                ├── Screenshots                         # Failure screenshots
-                ├── E2E_OrderItem_PizzaHut_Demo_testng.xml
-                └── pom.xml                             # Project dependencies
+
 
 5. Test Data Management
 Theframework manages data through three distinct layers:
